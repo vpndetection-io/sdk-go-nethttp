@@ -28,7 +28,7 @@ import (
     "os"
 
     vpndetectionhttp "github.com/vpndetection-io/sdk-go-nethttp"
-    "github.com/vpndetection-io/sdk-go/middleware"
+    "github.com/vpndetection-io/sdk-go/v4/middleware"
 )
 
 func main() {
