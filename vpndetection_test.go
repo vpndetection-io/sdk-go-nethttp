@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	vpndetectionhttp "github.com/vpndetection-io/sdk-go-nethttp"
-	vpndetection "github.com/vpndetection-io/sdk-go/v4"
-	"github.com/vpndetection-io/sdk-go/v4/middleware"
+	vpndetectionhttp "github.com/vpndetection-io/sdk-go-nethttp/v2"
+	vpndetection "github.com/vpndetection-io/sdk-go/v5"
+	"github.com/vpndetection-io/sdk-go/v5/middleware"
 )
 
 const publicIP = "45.83.91.1"

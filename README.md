@@ -1,6 +1,6 @@
 # [<img src="https://s3.vpndetection.io/vpndetection-public/brand/mark.svg" alt="VPNDetection" width="24"/>](https://vpndetection.io/) VPNDetection net/http Middleware
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/vpndetection-io/sdk-go-nethttp.svg)](https://pkg.go.dev/github.com/vpndetection-io/sdk-go-nethttp)
+[![Go Reference](https://pkg.go.dev/badge/github.com/vpndetection-io/sdk-go-nethttp/v2.svg)](https://pkg.go.dev/github.com/vpndetection-io/sdk-go-nethttp/v2)
 [![license](https://img.shields.io/github/license/vpndetection-io/sdk-go-nethttp.svg)](LICENSE)
 
 The official `net/http` middleware for the [VPNDetection](https://vpndetection.io) API.
@@ -12,7 +12,7 @@ Anything that takes a `func(http.Handler) http.Handler` works with this: the sta
 ## Getting Started
 
 ```bash
-go get github.com/vpndetection-io/sdk-go-nethttp
+go get github.com/vpndetection-io/sdk-go-nethttp/v2
 ```
 
 Requires Go 1.24 or newer.
@@ -27,8 +27,8 @@ import (
     "net/http"
     "os"
 
-    vpndetectionhttp "github.com/vpndetection-io/sdk-go-nethttp"
-    "github.com/vpndetection-io/sdk-go/v4/middleware"
+    vpndetectionhttp "github.com/vpndetection-io/sdk-go-nethttp/v2"
+    "github.com/vpndetection-io/sdk-go/v5/middleware"
 )
 
 func main() {

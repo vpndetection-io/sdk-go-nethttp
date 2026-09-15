@@ -19,8 +19,8 @@ import (
 	"sync"
 	"testing"
 
-	vpndetectionhttp "github.com/vpndetection-io/sdk-go-nethttp"
-	"github.com/vpndetection-io/sdk-go/v4/middleware"
+	vpndetectionhttp "github.com/vpndetection-io/sdk-go-nethttp/v2"
+	"github.com/vpndetection-io/sdk-go/v5/middleware"
 )
 
 // A slog handler that keeps the messages, which is how a warning gets asserted

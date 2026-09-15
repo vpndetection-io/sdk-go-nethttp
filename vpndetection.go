@@ -15,8 +15,8 @@ import (
 	"net"
 	"net/http"
 
-	vpndetection "github.com/vpndetection-io/sdk-go/v4"
-	"github.com/vpndetection-io/sdk-go/v4/middleware"
+	vpndetection "github.com/vpndetection-io/sdk-go/v5"
+	"github.com/vpndetection-io/sdk-go/v5/middleware"
 )
 
 // Options configure the middleware. Everything is optional except that you
