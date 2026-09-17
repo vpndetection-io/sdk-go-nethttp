@@ -15,7 +15,7 @@ Anything that takes a `func(http.Handler) http.Handler` works with this: the sta
 go get github.com/vpndetection-io/sdk-go-nethttp/v2
 ```
 
-Requires Go 1.24 or newer.
+Requires Go 1.26 or newer.
 
 You need an API key. Create one in the [console](https://app.vpndetection.io); the free tier's allowance is counted per source address, and a server is a single source address, so a key is what makes this usable in production rather than optional.
 
