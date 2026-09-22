@@ -2,7 +2,7 @@ module github.com/vpndetection-io/sdk-go-nethttp/v2
 
 go 1.26.0
 
-require github.com/vpndetection-io/sdk-go/v5 v5.3.0
+require github.com/vpndetection-io/sdk-go/v5 v5.3.1
 
 require (
 	github.com/apapsch/go-jsonmerge/v2 v2.0.0 // indirect
