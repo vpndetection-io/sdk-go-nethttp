@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.10 - 2026-10-04
+
+### Features
+
+- Require sdk-go v5.5.0: the authorization code sign-in ([`4e16e24`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/4e16e249310c624c7c71484c50bef4977b5d2b0d))
+
 ## 2.1.9 - 2026-10-04
 
 ### Fixes
