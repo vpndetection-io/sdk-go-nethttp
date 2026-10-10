@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.11 - 2026-10-10
+
+### Fixes
+
+- Require sdk-go v5.5.1: the middleware starts with only an API key ([`29374b8`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/29374b8bfc50d55c677ed4270de674ee3df5e248))
+
 ## 2.1.10 - 2026-10-04
 
 ### Features
