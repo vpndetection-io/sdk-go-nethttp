@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.14 - 2026-10-17
+
+### Features
+
+- Require sdk-go v5.6.0: OauthMetadata carries registration_endpoint ([`cc93b20`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/cc93b204dbf1660817924017f96a5c5801b0f2d4))
+
 ## 2.1.13 - 2026-10-16
 
 ### Fixes
