@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.15 - 2026-10-18
+
+### Fixes
+
+- Require sdk-go v5.7.0: is_pubproxy and the pubproxy detail ([`786849c`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/786849c3ff1f7eafea96e8d8d08ee56719c4aac0))
+
 ## 2.1.14 - 2026-10-17
 
 ### Features
