@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.16 - 2026-10-19
+
+### Fixes
+
+- Require sdk-go v5.8.0: num_ports and num_proxies in the pubproxy detail ([`fe19fb2`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/fe19fb2d40300f31eb27dd00b32e4ec00532572a))
+
 ## 2.1.15 - 2026-10-18
 
 ### Fixes
