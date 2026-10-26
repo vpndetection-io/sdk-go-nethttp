@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.19 - 2026-10-26
+
+### Fixes
+
+- Require sdk-go v5.10.1: re-pinned to the 2026.10.25 spec ([`c7340cf`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/c7340cf70eb8101c98bfdbfe1b813998115d4c0b))
+
 ## 2.1.18 - 2026-10-22
 
 ### Fixes
