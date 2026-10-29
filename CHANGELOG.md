@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.20 - 2026-10-29
+
+### Fixes
+
+- Require sdk-go v5.10.2: a lowercase t or z read, negative per-call retries refused ([`27024b6`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/27024b68e08094906a250cfbadc98e7d88a09102))
+
 ## 2.1.19 - 2026-10-26
 
 ### Fixes
