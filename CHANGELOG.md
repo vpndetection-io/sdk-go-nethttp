@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.21 - 2026-11-07
+
+### Features
+
+- Require sdk-go v5.11.0: downloads take the build a webhook names ([`ac406f8`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/ac406f8db652c2cf805a557fdf43b59d02d4efd4))
+
 ## 2.1.20 - 2026-10-29
 
 ### Fixes
