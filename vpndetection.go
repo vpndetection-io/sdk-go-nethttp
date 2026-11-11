@@ -20,8 +20,8 @@ import (
 )
 
 // Options configure the middleware. Everything is optional except that you
-// almost certainly want an APIKey: the free allowance is counted per source
-// address, and a server is one source address.
+// almost certainly want an APIKey: without one, lookups are limited to 60 a
+// minute from each source address, and a server is one source address.
 type Options struct {
 	middleware.Options[*http.Request]
 
