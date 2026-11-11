@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.27 - 2026-11-11
+
+### Fixes
+
+- Require vpndetection v5.13.1: the free plan's daily trial, never a trial key ([`13b92a8`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/13b92a83e46b3bbfc7412760845473894c1dda25))
+
 ## 2.1.26 - 2026-11-11
 
 ### Features
