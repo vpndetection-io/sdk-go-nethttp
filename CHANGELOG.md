@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.28 - 2026-11-11
+
+### Fixes
+
+- Require vpndetection v5.13.2: Unlimited, the free plan, never the Unlimited tier ([`483da45`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/483da4545eb85ac9ee7002f728c454b1d4f4ee5a))
+
 ## 2.1.27 - 2026-11-11
 
 ### Fixes
