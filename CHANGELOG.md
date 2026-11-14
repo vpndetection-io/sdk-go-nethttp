@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.30 - 2026-11-14
+
+### Fixes
+
+- Require vpndetection v5.15.0: is_bogon on every answer, and provider_name beside each provider ([`aa62f17`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/aa62f1724b0a16ce1b0e6940aa7885838f449a59))
+
 ## 2.1.29 - 2026-11-13
 
 ### Fixes
