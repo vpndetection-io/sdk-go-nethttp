@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.34 - 2026-11-20
+
+### Fixes
+
+- Require sdk-go v5.18.0: the network, service, company and abuse members ([`d1ff97c`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/d1ff97c61ddbd7fb3b5149833ebf743472f48492))
+
 ## 2.1.33 - 2026-11-19
 
 ### Fixes
