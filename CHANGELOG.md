@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.1.35 - 2026-11-22
+
+### Features
+
+- Require sdk-go v5.19.0: is_bot and bot, and an AS answer read whole ([`01b0414`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/01b0414832b9afd491bc6b9efaede8abafcae711))
+
 ## 2.1.34 - 2026-11-20
 
 ### Fixes
