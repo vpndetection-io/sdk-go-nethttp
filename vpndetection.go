@@ -22,6 +22,10 @@ import (
 // Options configure the middleware. Everything is optional except that you
 // almost certainly want an APIKey: without one a lookup leaves out the hosting,
 // CDN and proxy flags.
+//
+// AllowBots sends each request's own User-Agent header with its lookup and
+// lets a crawler whose answer verifies it through, whatever BlockCondition
+// matches; a keyless client is never answered a verdict.
 type Options struct {
 	middleware.Options[*http.Request]
 
@@ -57,7 +61,7 @@ func New(options Options) (func(http.Handler) http.Handler, error) {
 
 	return func(next http.Handler) http.Handler {
 		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-			lookup, err := core.Evaluate(r.Context(), r)
+			lookup, err := core.EvaluateAgent(r.Context(), r, r.Header.Get("User-Agent"))
 			if err != nil {
 				onError(w, r, err)
 				return
