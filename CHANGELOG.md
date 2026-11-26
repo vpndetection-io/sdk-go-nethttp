@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.2.5 - 2026-11-26
+
+### Fixes
+
+- Require sdk-go v5.22.1: a condition on the verdict is no plan gap for a request that sent no agent ([`8678a5d`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/8678a5da62d898912f2ac8bfb16580f17f7d0dc8))
+
 ## 2.2.4 - 2026-11-26
 
 ### Features
