@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff. Releases before 2.1.2 are described by their release commits.
 
+## 2.2.7 - 2026-11-27
+
+### Fixes
+
+- Require sdk-go v5.23.1: a bogon peer's crawler agent is no plan gap ([`301f386`](https://github.com/vpndetection-io/sdk-go-nethttp/commit/301f3862b92bb10cd948c160e8e88428be774188))
+
 ## 2.2.6 - 2026-11-27
 
 ### Features
